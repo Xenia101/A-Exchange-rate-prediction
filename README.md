@@ -36,3 +36,23 @@ with open('./json/sample.json') as json_file:
 ```
 
 - Prediction
+
+```python
+model = Prophet()
+model.fit(data)
+
+future = model.make_future_dataframe(periods=365) # 365 days
+forecast = model.predict(future)
+forecast.tail()
+```
+
+- Graph
+
+<p align=center float="left">
+	<img width="45%" src="https://github.com/Xenia101/A-Exchange-rate-prediction/blob/master/img/Figure_1.png?raw=true">
+	<img width="45%" src="https://github.com/Xenia101/A-Exchange-rate-prediction/blob/master/img/Figure_3.png?raw=true">
+</p>
+
+<p align=center>
+	<img width="100%" src="https://github.com/Xenia101/A-Exchange-rate-prediction/blob/master/img/Figure_2.png?raw=true">
+</p>
