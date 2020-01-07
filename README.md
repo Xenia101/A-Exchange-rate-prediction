@@ -13,7 +13,7 @@ Forecasting Exchange Rates Using Time Series Data
   
 ## 예시
 
-- 데이터 (약 3000개 2019.12.13 ~ 2019.12.23)
+- Load the data (약 3000개 2019.12.13 ~ 2019.12.23)
 
 	[Rate of Exchange Crawling](https://github.com/Xenia101/Rate-of-Exchange-Crawling)으로 크롤링 후 output으로 나온 sample.json
 
@@ -34,3 +34,5 @@ with open('./json/sample.json') as json_file:
 	"2019.12.23": 1164.0,
 }
 ```
+
+- Prediction
