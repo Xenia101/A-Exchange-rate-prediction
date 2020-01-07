@@ -17,6 +17,13 @@ Forecasting Exchange Rates Using Time Series Data
 
 	[Rate of Exchange Crawling](https://github.com/Xenia101/Rate-of-Exchange-Crawling)으로 크롤링 후 output으로 나온 sample.json
 
+```python
+with open('./json/sample.json') as json_file:
+	json_data = json.load(json_file)
+	df = pd.DataFrame(list(json_data.items()),columns = ['ds','y']) 
+	df['ds'] = pd.to_datetime(df['ds'])
+```
+
 ```json
 {
 	"2007.12.13": 925.0,
