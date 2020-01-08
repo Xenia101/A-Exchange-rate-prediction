@@ -8,8 +8,8 @@ Forecasting Exchange Rates Using Time Series Data
 
 ## 설치 방법
 - 실행 환경 (테스트 환경)
-  - Windows 10 or Ubuntu Linux
-  - Python3.x
+  - Windows 10
+  - Python 3.6
   
 ## 예시
 
