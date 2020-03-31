@@ -10,7 +10,7 @@ Forecasting Exchange Rates Using Time Series Data
   - Windows 10
   - Python 3.6
   
-## EXAMPLE
+## Example
 
 - Load the data (약 3000개 **2019.12.13 ~ 2019.12.23**)
 
