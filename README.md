@@ -8,7 +8,7 @@ Forecasting Exchange Rates Using Time Series Data
 
 ## Execution / Test Environment
   - Windows 10
-  - Python 3.6
+  - Python **3.6**
   
 ## Example
 
@@ -47,7 +47,7 @@ forecast.tail()
 
 - Graph
 
->빨간 점선 : ChangePoint, 빨간 실선 : Trend
+>빨간 점선 : ChangePoint | 빨간 실선 : Trend
 
 <p align=center float="left">
 	<img width="45%" src="https://github.com/Xenia101/A-Exchange-rate-prediction/blob/master/img/Figure_1.png?raw=true">
